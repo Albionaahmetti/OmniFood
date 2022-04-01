@@ -17,6 +17,8 @@ FONT SIZE SYSTEM (px)
 ---Tints and Shades
     -Tints:fdf2e9,fae5d3,eea564
     -Shades:170d03,5c320e,a15818
+---Border
+    --Border-Radius:8px
     */
 
 
@@ -26,8 +28,8 @@ FONT SIZE SYSTEM (px)
 .header {
     display: flex;
     justify-content: space-between;
-   align-items: center;
-    padding:3.2rem 4.8rem;
+    align-items: center;
+    padding: 3.2rem 4.8rem;
     background-color: #fdf2e9;
 }
 
@@ -59,7 +61,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .nav-btn:link,
-.nav-btn:visited{
+.nav-btn:visited {
     padding: 0.8rem 1.6rem;
     border-radius: 9px;
 }
@@ -69,17 +71,19 @@ FONT SIZE SYSTEM (px)
 /* ****** HERO Start ****** */
 .hero-section {
     background-color: #fdf2e9;
-  padding: 4.8rem 0;
-    
+    padding: 4.8rem 0;
+
 }
-.header .logo img{
+
+.header .logo img {
     width: 12.8rem;
 }
+
 .hero {
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 9.6rem;
 
@@ -112,21 +116,83 @@ FONT SIZE SYSTEM (px)
     margin-right: -1.6rem;
     border: 3px solid white;
 }
-.customer-img img:last-child{
-margin-right: 0px;
+
+.customer-img img:last-child {
+    margin-right: 0px;
 }
+
 .mr-sm {
     margin-right: 1.6rem !important;
 }
-.mr-lg{
-    margin-top:9.6rem;
+
+.mr-lg {
+    margin-top: 9.6rem;
 }
-.customer-des{
+
+.pb-lg {
+    padding-bottom: 9.6rem !important;
+}
+
+.customer-des {
     font-size: 1.8rem;
     font-weight: 500;
 
 }
-.delivered-meals{
+
+.delivered-meals {
+    color: #cf711f;
+
+}
+
+/* ****** HERO End ****** */
+
+
+/* ****** Steps Start ****** */
+.steps {
+    padding: 0 4.8rem;
+}
+
+.span-desc {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
     color: #cf711f;
 }
-/* ****** HERO End ****** */
+.steps-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  justify-content: center;
+    align-items: center;
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+}
+.steps-content img {
+    align-self: end;
+    width: 35%;
+}
+.step-title{
+
+    margin-top: 2.4rem;
+}
+.step-no{
+font-size: 6.2rem;
+font-weight: 700;
+color: #ddd;
+}
+.steps-header{
+    padding: 9.6rem 0 6.4rem 0;
+}
+.step-desc{
+
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 1.05px;
+}
+.step-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ****** Steps End ****** */
