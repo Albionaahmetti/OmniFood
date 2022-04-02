@@ -150,6 +150,8 @@ FONT SIZE SYSTEM (px)
 /* ****** Steps Start ****** */
 .steps {
     padding: 0 4.8rem;
+    /* margin: 0 auto;
+    width: 130rem; */
 }
 
 .span-desc {
@@ -161,8 +163,6 @@ FONT SIZE SYSTEM (px)
 .steps-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  justify-content: center;
     align-items: center;
     row-gap: 6.4rem;
     column-gap: 4.8rem;
@@ -190,9 +190,35 @@ color: #ddd;
     letter-spacing: 1.05px;
 }
 .step-img{
-    display: flex;
+    
+    display: flex; 
     justify-content: center;
+    align-items: center;
+    position: relative;
 }
-
+.step-img::before,
+.step-img::after{
+    content: "";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: -2;
+    transform: translate(-50%,-50%);
+    display: block;
+    /* height: 60%; */
+}
+.step-img::before{
+    width: 60%;
+    background-color: #fdf2e9;
+    padding-bottom: 60%;
+    z-index: -2;
+}
+.step-img::after{
+    background-color: #fae5d3;
+    width: 50%;
+    z-index: -1;
+    padding-bottom: 50%;
+}
 
 /* ****** Steps End ****** */
