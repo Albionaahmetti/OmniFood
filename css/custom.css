@@ -121,17 +121,7 @@ FONT SIZE SYSTEM (px)
     margin-right: 0px;
 }
 
-.mr-sm {
-    margin-right: 1.6rem !important;
-}
 
-.mr-lg {
-    margin-top: 9.6rem;
-}
-
-.pb-lg {
-    padding-bottom: 9.6rem !important;
-}
 
 .customer-des {
     font-size: 1.8rem;
@@ -159,13 +149,6 @@ FONT SIZE SYSTEM (px)
     font-weight: 600;
     text-transform: uppercase;
     color: #cf711f;
-}
-.steps-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    row-gap: 6.4rem;
-    column-gap: 4.8rem;
 }
 .steps-content img {
     align-self: end;
@@ -222,3 +205,109 @@ color: #ddd;
 }
 
 /* ****** Steps End ****** */
+
+/* ****** Feature In Start ****** */
+
+.feature-in-header{
+
+    text-align: center;
+}
+.feature-in-header .span-desc{
+     
+    color: #999;
+    display: inline-block;
+    margin-bottom: 3.2rem;
+}
+.feature-img{
+    display: flex;
+    justify-content: space-around;
+}
+.fi-img{
+   height: 3.2rem;
+   filter: brightness(1%);
+   opacity: 50%;
+}
+
+/* ****** Feature In End ****** */
+
+/* ******Meals Start****** */
+.meals-header{
+    text-align: center;
+}
+.meals-recipes{
+    display: inline-block;
+    padding: 0.4rem;
+    font-size: 1.6rem;
+    color: #cf711f;
+   text-decoration: none;
+    border-bottom: 1px solid currentColor ;
+    letter-spacing: 1.05px;
+    font-weight: 600;
+}
+.meals-recipes:hover{
+    border-bottom: 1px solid transparent;
+}
+.meals-header span{
+    margin-bottom: 2.4rem;
+    display: block;
+}
+.meals-footer{
+    text-align: center;
+}
+/* ******Meals End****** */
+
+/* ****** Testimonials & Gallery Start ****** */
+
+/* ****** Testimonials ****** */
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+}
+.testimonials-gallery{
+    background-color: #fae5d3;
+}
+
+.testimonials-header{
+    padding-bottom: 3.2rem;
+}
+.testimonials-body figure{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.author-img img{
+    width: 35%;
+    border-radius: 50%;
+}
+.author-testimonial{
+    font-size: 1.8rem;
+    letter-spacing: 1.2;
+    line-height: 1.5;
+}
+.author-info{
+
+}
+
+/* ****** Gallery ****** */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.6rem;
+}
+.gallery img{
+    width: 100%;
+
+    transition: all 0.4s;
+}
+.container-img{
+    overflow: hidden;
+
+}
+.container-img img:hover{
+    transform: scale(1.1);
+
+}
+/* ****** Testimonials & Gallery End ****** */
