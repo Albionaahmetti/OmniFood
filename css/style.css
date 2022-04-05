@@ -138,6 +138,9 @@ margin-bottom: 1.2rem;
     grid-template-columns: repeat(3,1fr);
   
 }
+strong{
+    font-weight: 500;
+}
 /* Container */
 .container{
     max-width: 120rem;
