@@ -283,11 +283,17 @@ color: #ddd;
     margin-bottom: 1.8rem;
 }
 .meals-recipe{
+    
     box-shadow:  0 0 3px rgba(51, 51, 51,20%);
     overflow: hidden;
     border-radius: 0.8rem;
     max-width: 70%;
-    
+    transition: 0.3s ;
+    transition-timing-function: ease-in-out;
+}
+.meals-recipe:hover{
+    transform: translateY(-2rem);
+
 }
 .meals-recipe.first{
     
