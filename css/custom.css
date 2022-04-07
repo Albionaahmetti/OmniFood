@@ -446,16 +446,12 @@ ion-icon {
     gap: 3.2rem;
 }
 
-.pricing-card-header {
-    margin-bottom: 4.8rem;
-}
-
 .pricing-card {
     border: 2px solid #fdf2e9;
     border-radius: 8px;
     position: relative;
     overflow: hidden;
-    padding: 4.8rem;
+    padding: 6.4rem 4.8rem;
 }
 
 .pricing-card:last-child {
@@ -471,7 +467,7 @@ ion-icon {
     top: 2rem;
     right: -5rem;
     padding: 0.8rem 1.2rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     background-color: #fcc419;
     transform: rotate(40deg);
@@ -484,30 +480,31 @@ ion-icon {
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    font-size: 1.4rem;
-    margin-bottom: 3.2rem;
+    font-size: 1.8rem;
+    margin-bottom: 4.8rem;
 }
 
 .pricing-card .price {
-    font-size: 3.6rem;
+    font-size: 5.2rem;
     font-weight: 600;
 }
 
 .pricing-card .span-desc {
     font-size: 1.4rem;
     font-weight: 500;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin-bottom: 0.8rem;
 }
 
 .price span {
     font-size: 2.4rem;
     font-weight: 500;
+    padding: 0.6rem;
 }
 
 .pricing-card-body {
 
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -521,7 +518,7 @@ ion-icon {
 .pricing-card-body p {
     display: flex;
     align-items: center;
-    letter-spacing: 0.9px;
+    /* letter-spacing: 0.9px; */
     gap: 1.2rem;
 }
 
@@ -533,7 +530,7 @@ ion-icon {
 .pricing-footer {
     display: flex;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding-top: 4.8rem;
 }
 
@@ -541,6 +538,29 @@ ion-icon {
 
 
 /* ******Features Start ****** */
+
+.features {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.feature ion-icon {
+    font-size: 3.6rem;
+    background-color: #fdf2e9;
+    /* color: white; */
+    padding: 1.8rem;
+    border-radius: 50%;
+    margin-bottom: 4.8rem;
+}
+.feature h3{
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.feature p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
 
 /* ****** Features End ****** */
 
