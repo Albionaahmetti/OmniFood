@@ -130,9 +130,11 @@ body {
 .pt-lg {
     padding-top: 9.6rem !important;
 }
-
-.pt-sm {
-    padding-top: 1.6rem !important;
+.mb-sm{
+    margin-bottom: 1.6rem !important;
+}
+.pb-sm {
+    padding-bottom:  1.6rem !important;
 }
 
 /* Grid */

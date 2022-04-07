@@ -376,7 +376,8 @@ ion-icon {
     row-gap: 4.8rem;
     column-gap: 8rem;
 }
-.testimonials{
+
+.testimonials {
     padding: 4.8rem;
 }
 
@@ -444,9 +445,11 @@ ion-icon {
     justify-content: center;
     gap: 3.2rem;
 }
-.pricing-card-header{
-    margin-bottom:4.8rem ;
+
+.pricing-card-header {
+    margin-bottom: 4.8rem;
 }
+
 .pricing-card {
     border: 2px solid #fdf2e9;
     border-radius: 8px;
@@ -458,6 +461,7 @@ ion-icon {
 .pricing-card:last-child {
     background-color: #fdf2e9;
 }
+
 .pricing-card:last-child::after {
     content: "Best Value";
     text-align: center;
@@ -472,6 +476,7 @@ ion-icon {
     background-color: #fcc419;
     transform: rotate(40deg);
 }
+
 .pricing-card-header {
 
     display: flex;
