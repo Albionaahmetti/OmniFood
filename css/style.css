@@ -116,7 +116,9 @@ margin-bottom: 1.2rem;
 .mr-lg {
     margin-top: 9.6rem;
 }
-
+.pt-sm {
+    padding-top: 1.6rem !important;
+}
 .pb-lg {
     padding-bottom: 9.6rem !important;
 }
