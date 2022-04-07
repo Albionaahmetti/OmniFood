@@ -15,10 +15,10 @@ FONT SIZE SYSTEM (px)
  ---Accent Color:
  ---Grey Color:
 ---Tints and Shades
-    -Tints:fdf2e9,fae5d3,eea564
+    -Tints:fdf2e9,fae5d3,eea564,eb984e
     -Shades:170d03,5c320e,a15818
 ---Border
-    --Border-Radius:8px
+    --Border-Radius:8px,12px
     */
 
 
@@ -552,10 +552,12 @@ ion-icon {
     border-radius: 50%;
     margin-bottom: 4.8rem;
 }
-.feature h3{
+
+.feature h3 {
     font-size: 2.4rem;
     margin-bottom: 2.4rem;
 }
+
 .feature p {
     font-size: 1.8rem;
     line-height: 1.5;
@@ -565,3 +567,76 @@ ion-icon {
 /* ****** Features End ****** */
 
 /* ****** Pricing & Features End ****** */
+
+
+/* ****** CTA Start ****** */
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: linear-gradient( to bottom right, #e67e22,#eb984e);
+    
+    
+}
+
+.cta-from{
+    padding: 4.8rem;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.4rem;
+    column-gap: 3.6rem;
+    margin-top: 4.8rem;
+}
+.form-control label{
+    display: block;
+    font-weight: 500;
+     font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.cta {
+    color: #2e1907;
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+    font-size: 1.8rem;
+}
+
+.cta-img {
+    background-image: url(../img/eating.jpg);
+    opacity: 0.7;
+    background-size: cover;
+}
+.form-control input,.form-control select{
+    background-color: #fae5d3;
+    border: none;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 8px;
+
+}
+.form-control:last-child{
+    align-self: end;
+}
+.btn-custom{
+    padding: 1rem 3.2rem;
+    background-color: #2e1907;
+    color: white;
+    width: 100%;
+    transition: all 0.3s;
+  
+}
+.btn-custom:hover{
+    background-color: #5c320e;
+
+}
+
+
+/* ****** CTA End ****** */
+
+/* ****** Footer End ****** */
+.footer{
+    border-top: 1px solid rgb(232, 220, 220);
+}
+/* ****** Footer End ****** */

@@ -31,7 +31,12 @@ FONT SIZE SYSTEM (px)
     padding: 0;
     box-sizing: border-box;
 }
-
+*:focus{
+    outline: none;
+    /* outline: 1px solid #a15818;
+    outline-offset: 3px; */
+    box-shadow: 0 0 0 3px #a15818;
+}
 html {
     font-size: 62.5%;
 
@@ -71,6 +76,7 @@ body {
     margin-bottom: 1.2rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -80,7 +86,7 @@ body {
     font-weight: 700;
     border-radius: 8px;
     transition: all 0.3s;
-
+    border: none;
 }
 
 .btn-primary {
@@ -130,11 +136,16 @@ body {
 .pt-lg {
     padding-top: 9.6rem !important;
 }
-.mb-sm{
+
+.mb-sm {
     margin-bottom: 1.6rem !important;
 }
+.mb-lg {
+    margin-bottom: 9.6rem !important;
+}
+
 .pb-sm {
-    padding-bottom:  1.6rem !important;
+    padding-bottom: 1.6rem !important;
 }
 
 /* Grid */
