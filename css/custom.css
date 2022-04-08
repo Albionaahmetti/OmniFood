@@ -34,7 +34,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .logo img {
-    width: 12.8rem;
+    height: 2.2rem;
 }
 
 .nav-bar .nav ul {
@@ -75,9 +75,6 @@ FONT SIZE SYSTEM (px)
 
 }
 
-.header .logo img {
-    width: 12.8rem;
-}
 
 .hero {
     max-width: 130rem;
@@ -575,14 +572,15 @@ ion-icon {
     grid-template-columns: 2fr 1fr;
     border-radius: 12px;
     overflow: hidden;
-    background-image: linear-gradient( to bottom right, #e67e22,#eb984e);
-    
-    
+    background-image: linear-gradient(to bottom right, #e67e22, #eb984e);
+
+
 }
 
-.cta-from{
-    padding: 4.8rem;
+.cta-from {
+    padding: 6.2rem;
 }
+
 form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -590,12 +588,14 @@ form {
     column-gap: 3.6rem;
     margin-top: 4.8rem;
 }
-.form-control label{
+
+.form-control label {
     display: block;
     font-weight: 500;
-     font-size: 1.6rem;
+    font-size: 1.6rem;
     margin-bottom: 1.6rem;
 }
+
 .cta {
     color: #2e1907;
     font-size: 1.6rem;
@@ -608,7 +608,9 @@ form {
     opacity: 0.7;
     background-size: cover;
 }
-.form-control input,.form-control select{
+
+.form-control input,
+.form-control select {
     background-color: #fae5d3;
     border: none;
     width: 100%;
@@ -616,18 +618,21 @@ form {
     border-radius: 8px;
 
 }
-.form-control:last-child{
+
+.form-control:last-child {
     align-self: end;
 }
-.btn-custom{
+
+.btn-custom {
     padding: 1rem 3.2rem;
     background-color: #2e1907;
     color: white;
     width: 100%;
     transition: all 0.3s;
-  
+
 }
-.btn-custom:hover{
+
+.btn-custom:hover {
     background-color: #5c320e;
 
 }
@@ -636,7 +641,64 @@ form {
 /* ****** CTA End ****** */
 
 /* ****** Footer End ****** */
-.footer{
+.footer {
     border-top: 1px solid rgb(232, 220, 220);
 }
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #767676;;
+    font-size: 1.6rem;
+}
+
+
+.footer-icons{
+    display: flex;
+    gap: 2.4rem;
+}
+.footer-icons ion-icon,.copyright, address p{
+    color: #767676;
+}
+.footer-icons ion-icon
+{
+    font-size: 2.4rem;
+}
+.socials{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.socials .logo{
+    margin-bottom: 2.4rem;
+
+}
+.copyright{
+    font-size: 1.4rem;
+    margin-top: auto;
+}
+ .contact-footer address{
+    font-size: 1.6rem;
+}
+.footer .quaternary-header{
+    margin-bottom: 4rem;
+}
+.resources-footer .quaternary-header{
+    margin-top: auto;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    
+}
+
 /* ****** Footer End ****** */
