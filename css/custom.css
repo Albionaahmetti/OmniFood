@@ -327,7 +327,12 @@ FONT SIZE SYSTEM (px)
 }
 
 .meals-diet p,
-.meal-details p {}
+.meal-details p {
+
+    font-size: 1.8rem;
+    display: flex;
+    gap: 1rem;
+}
 
 ion-icon {
     color: #cf711f;
@@ -622,7 +627,9 @@ form {
 .form-control:last-child {
     align-self: end;
 }
-
+.form-control input::placeholder{
+   font-family: inherit;
+}
 .btn-custom {
     padding: 1rem 3.2rem;
     background-color: #2e1907;
