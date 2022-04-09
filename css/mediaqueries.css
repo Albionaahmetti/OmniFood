@@ -1,0 +1,97 @@
+@media (min-width:87.5em) {
+
+    .hero-section,
+    .step-header {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero {
+
+        width: 100%;
+    }
+}
+
+@media (max-width:75em) {
+    html {
+        font-size: 47%;
+    }
+
+    .meals {
+        padding-top: 0;
+    }
+
+
+}
+
+@media (max-width:59em) {
+    .container {
+        width: 90%;
+    }
+
+    .grid {
+        row-gap: 4.8rem;
+        column-gap: 3.2rem;
+    }
+
+    .meals-body.grid {
+        justify-content: center;
+        column-gap: 1.8rem;
+    }
+
+    .customers {
+        gap: 0px;
+    }
+
+
+}
+
+@media (max-width:730px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+        width: 90%;
+        text-align: center;
+        row-gap: 4.8rem;
+
+    }
+
+    .customers {
+        justify-content: center;
+        margin-top: 3.6rem;
+    }
+
+    .hero-image {
+        width: 80%;
+        justify-self: center;
+    }
+}
+
+@media (max-width:650px) {
+
+    .meals-diet {
+        grid-column: 1/ -1;
+    }
+    .grid-3,.gallery{
+        justify-items: center;
+       grid-template-columns: repeat(2,1fr);
+       gap: 6.4rem;
+    }
+    .gallery{
+        gap: 1.8rem;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
+    .cta{
+        margin-bottom: 8rem;
+    }
+
+    .footer{
+        padding-top: 8rem;
+    }
+     .pricing-footer{
+        padding-top: 8.8rem ;
+    }
+}
