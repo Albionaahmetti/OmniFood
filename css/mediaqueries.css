@@ -47,7 +47,7 @@
 
 }
 
-@media (max-width:730px) {
+@media (max-width:46em) {
 
     .hero {
         grid-template-columns: 1fr;
@@ -68,30 +68,139 @@
     }
 }
 
-@media (max-width:650px) {
+@media (max-width:38em) {
 
     .meals-diet {
         grid-column: 1/ -1;
     }
-    .grid-3,.gallery{
+
+    .grid-3,
+    .gallery {
         justify-items: center;
-       grid-template-columns: repeat(2,1fr);
-       gap: 6.4rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6.4rem;
     }
-    .gallery{
+
+    .gallery {
         gap: 1.8rem;
         justify-self: stretch;
         align-self: stretch;
     }
 
-    .cta{
+    .img1 {
+        grid-row: 1;
+    }
+
+    .img2 {
+        grid-row: 6;
+    }
+
+    .img3 {
+        grid-row: 5;
+    }
+
+
+
+
+    .cta {
         margin-bottom: 8rem;
     }
 
-    .footer{
+    .footer {
         padding-top: 8rem;
     }
-     .pricing-footer{
-        padding-top: 8.8rem ;
+
+    .pricing-footer {
+        padding-top: 8.8rem;
     }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-6 {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2.4rem;
+    }
+}
+
+@media (max-width:33em) {
+
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr;
+        row-gap: 3.2rem;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .btn {
+        padding: 1.6rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .meals-recipe.first {
+        justify-self: center;
+    }
+
+    .meals-header {
+        margin-bottom: 8rem;
+    }
+
+    .pricing-body,
+    .features ,
+    .costumers{
+        flex-wrap: wrap;
+    }
+
+    .fi-img {
+        height: 2.3em;
+    }
+
+    .feature-in-img {
+        justify-content: space-evenly;
+    }
+
+    .socials,.resources-footer {
+        grid-column: 2/3s;
+        grid-row: 2/3;
+    }
+
+    .contact-footer {
+        
+    }
+
+    .pb-lg {
+        padding-bottom: 4.8rem !important;
+    }
+
+    .pt-lg {
+        padding-top: 4.8rem !important;
+    }
+
+    .hero {
+        row-gap: 3.2rem;
+    }
+
+    .steps-header {
+        padding: 4.8rem 0 3.2rem 0;
+    }
+    .cta{
+        grid-template-columns: 1fr;
+    }
+    .cta-img{
+        padding-bottom: 90%;
+        grid-row: 1;
+
+    }
+    form{
+        grid-template-columns: 1fr;
+    }
+
+   
 }

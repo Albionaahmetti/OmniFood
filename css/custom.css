@@ -66,6 +66,21 @@ FONT SIZE SYSTEM (px)
     padding: 0.8rem 1.6rem;
     border-radius: 9px;
 }
+.mobile-nav{
+    border: none;
+    padding: 1.6rem;
+    background-color: transparent;
+}
+
+.mobile-nav-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #333;
+
+}
+.mobile-nav:last-child{
+    display: none;
+}
 
 /* ****** Header End ****** */
 
