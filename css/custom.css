@@ -36,7 +36,7 @@ FONT SIZE SYSTEM (px)
 .logo img {
     height: 2.2rem;
 }
-
+   
 .nav-bar .nav ul {
     display: flex;
     gap: 4.8rem;
@@ -69,16 +69,17 @@ FONT SIZE SYSTEM (px)
 .mobile-nav{
     border: none;
     padding: 1.6rem;
-    background-color: transparent;
+    background: transparent;
+    
 }
 
 .mobile-nav-icon{
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 3.2rem;
+    width: 3.2rem;
     color: #333;
 
 }
-.mobile-nav:last-child{
+.mobile-nav ion-icon[name="close-outline"]{
     display: none;
 }
 
@@ -667,6 +668,7 @@ form {
 /* ****** Footer End ****** */
 .footer {
     border-top: 1px solid rgb(232, 220, 220);
+    position: relative;
 }
 .footer-grid{
     display: grid;
@@ -724,5 +726,23 @@ form {
     gap: 1.6rem;
     
 }
-
+.move-up ion-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3.2rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    sdisplay: block;
+    
+}
+.move-up a {
+    text-decoration: none;
+}
+.move-up  *:focus {
+    outline: none;
+}
+.spin{
+    transform: rotate(360deg);
+}
 /* ****** Footer End ****** */
