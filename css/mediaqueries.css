@@ -92,7 +92,7 @@
 
     .open-nav ion-icon[name="close-outline"] {
         display: block;
-        position: fixed;
+       position: relative;
         z-index: 9999;
     }
 
